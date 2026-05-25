@@ -1,8 +1,9 @@
+import Table from "./components/Table";
+
 function App() {
   return (
     <main>
-      <h1>Bluffbot</h1>
-      <p>Poker AI project running.</p>
+      <Table />
     </main>
   );
 }

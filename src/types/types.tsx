@@ -41,3 +41,9 @@ export type GameState = {
   round: BettingRound;
   log: string[];
 };
+
+export type PlayerAction =
+  | { type: "fold" }
+  | { type: "check" }
+  | { type: "call" }
+  | { type: "raise"; amount: number };
